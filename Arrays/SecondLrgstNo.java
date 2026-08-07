@@ -1,7 +1,7 @@
 package Arrays;
 
 public class SecondLrgstNo {
-    public static void main() {
+    public static void main(String [] args) {
         int []arr = {5, 100, 80, 70, 60};
         int largest = arr[0];
         int scndlargst = arr[0];
@@ -15,6 +15,6 @@ public class SecondLrgstNo {
             }
         }
         System.out.println("largest element found "+ largest);
-        System.out.println("second largest elementbfound "+ scndlargst);
+        System.out.println("second largest element found "+ scndlargst);
     }
 }
