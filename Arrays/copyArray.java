@@ -1,7 +1,5 @@
 package Arrays;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class copyArray {
     static void main() {
         int[] arr = {10, 20, 30, 40, 50};
