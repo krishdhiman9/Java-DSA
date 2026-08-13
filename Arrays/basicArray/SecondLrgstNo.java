@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.basicArray;
 
 public class SecondLrgstNo {
     public static void main(String [] args) {

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.basicArray;
 public class FindDuplicateElement {
     static void main() {
         int[] arr = {10, 20, 30, 30, 40};

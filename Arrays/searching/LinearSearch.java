@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.searching;
 
 public class LinearSearch {
     public static void main() {

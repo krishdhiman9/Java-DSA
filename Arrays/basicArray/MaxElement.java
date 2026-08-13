@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.basicArray;
 
 public class MaxElement {
     public static void main() {

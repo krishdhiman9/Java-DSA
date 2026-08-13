@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.TwoPointer;
 
         public class ReverseArray {
 

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.basicArray;
 
 public class rotateArray {
     static void main() {
