@@ -2,7 +2,7 @@ package Arrays.sorting;
 
 public class bubbleSort {
     static void main() {
-        int[] arr = {5, 3, 8, 1, 2};
+        int[] arr = {5, 3, 8, 1, 2, 7};
 
         for (int i = 0; i < arr.length - 1; i++) {
 
