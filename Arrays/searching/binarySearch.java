@@ -5,7 +5,6 @@ public class binarySearch {
         int[] arr = {10, 20, 30, 40, 50, 60, 70};
         int target = 70;
 
-
         int left = 0;
         int right = arr.length - 1;
         while (left<=right) {
