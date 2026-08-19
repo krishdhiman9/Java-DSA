@@ -4,7 +4,6 @@ public class bubbleSort {
     static void main() {
         int [] arr = {10, 3, 5, 9, 2, 1, 6, 7, 8 ,4};
         int tem = 0;
-
         for(int i = 0; i<arr.length-1; i++){
             for (int j=0; j <arr.length-1-i; j++){
                 if(arr[j]>arr[j+1]){
