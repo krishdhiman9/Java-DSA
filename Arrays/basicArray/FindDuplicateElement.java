@@ -1,7 +1,7 @@
 package Arrays.basicArray;
 public class FindDuplicateElement {
     static void main() {
-        int[] arr = {10, 20, 30, 30, 40};
+        int[] arr = {10, 20, 40, 30, 40};
         int repeate = 0;
 
         for(int i=0; i<arr.length; i++){
@@ -12,6 +12,7 @@ public class FindDuplicateElement {
                 }
             }
         }
+
         System.out.println(repeate);
     }
 }
