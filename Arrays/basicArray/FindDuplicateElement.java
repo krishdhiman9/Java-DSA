@@ -19,7 +19,7 @@ package Arrays.basicArray;
 //    }
 //}
 
-//Floyd's Cycle Detection Algorithm / Slow & Fast Pointer approach
+//Floyd's Cycle Detection Algorithm / Slow & Fast Pointer approach. this approach use in linked list .
 public class FindDuplicateElement{
 static void main() {
 
