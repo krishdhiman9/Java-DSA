@@ -9,7 +9,6 @@ public class singleNumber {
             // XOR operator is used to cancel out duplicate elements
             // and return the element that appears only once.
             result = result ^ arr[i];
-
         }
         System.out.println(result);
     }
