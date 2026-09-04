@@ -1,7 +1,7 @@
 package Arrays.basicArray;
 
 public class containsDuplicates {
-    static void main() {
+    static boolean main() {
         int [] nums = {1,2,3,1};
     boolean result=false;
 
