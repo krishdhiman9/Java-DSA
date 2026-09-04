@@ -1,19 +1,18 @@
 package Arrays.basicArray;
 
 public class containsDuplicates {
-    static boolean main() {
+    static void  main() {
         int [] nums = {1,2,3,1};
     boolean result=false;
 
     for(int i=0; i<nums.length-1; i++){
         for(int j =i+1; j<nums.length; j++){
             if(nums[i] ==nums[j]){
-                return true;
+                result = true;
             }
         }
     }
-
- return result;
+        System.out.println( result);
     }
 }
 
