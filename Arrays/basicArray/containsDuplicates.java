@@ -2,7 +2,7 @@ package Arrays.basicArray;
 
 public class containsDuplicates {
     static void  main() {
-        int [] nums = {1,2,3,1};
+        int [] nums = {1,2,2,2,3,1};
     boolean result=false;
 
     for(int i=0; i<nums.length-1; i++){
