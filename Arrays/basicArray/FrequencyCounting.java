@@ -16,7 +16,6 @@ public class FrequencyCounting {
                     break;
                 }
             }
-
             if (alreadyCounted) {
                 continue;
             }
