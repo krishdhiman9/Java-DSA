@@ -19,7 +19,6 @@ public class FrequencyCounting {
             if (alreadyCounted) {
                 continue;
             }
-
             int count = 0;
 
             for (int j = i; j < arr.length; j++) {
