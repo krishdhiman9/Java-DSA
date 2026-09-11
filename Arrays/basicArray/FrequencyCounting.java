@@ -2,33 +2,27 @@ package Arrays.basicArray;
 
 public class FrequencyCounting {
     static void main() {
+        int [] a = {2,3,2,5,2,3};
 
-        int[] arr = {1, 2, 2, 3, 1, 2, 4, 3};
+        for(int i = 0; i<a.length; i++){
+            boolean alreadycount = false ;
 
-        for (int i = 0; i < arr.length; i++) {
-
-            boolean alreadyCounted = false;
-
-            for (int k = 0; k < i; k++) {
-
-                if (arr[i] == arr[k]) {
-                    alreadyCounted = true;
+            for(int k=0; k<i; k++){
+                if (a[i]==a[k]){
+                    alreadycount = true;
                     break;
                 }
             }
-            if (alreadyCounted) {
+            if(alreadycount){
                 continue;
             }
             int count = 0;
-
-            for (int j = i; j < arr.length; j++) {
-
-                if (arr[i] == arr[j]) {
+            for (int j=0; j<a.length; j++){
+                if(a[i]==a[j]){
                     count++;
                 }
             }
-
-            System.out.println(arr[i] + " is occurring " + count + " times");
+            System.out.println( a[i] + " is occuring " + count + " times");
         }
     }
 }
