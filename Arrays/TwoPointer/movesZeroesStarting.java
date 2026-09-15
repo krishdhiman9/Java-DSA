@@ -12,7 +12,6 @@ public class movesZeroesStarting {
                 index++;
             }
         }
-
         int nonZero = index;
 
         // Original array ko overwrite nahi karna
