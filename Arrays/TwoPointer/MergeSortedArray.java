@@ -8,7 +8,10 @@ public class MergeSortedArray {
         int m = 3;
         int n = 3;
 
-        int
+        int i = m-1;
+        int j = n-1;
+        int k = nums2.length-1;
+
 
         while()
 
