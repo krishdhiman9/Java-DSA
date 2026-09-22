@@ -14,5 +14,6 @@ public class MoveAllEvenNo {
             fast++;
         }
         System.out.println(Arrays.toString(arr));
+
     }
 }
