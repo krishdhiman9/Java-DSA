@@ -1,6 +1,4 @@
 package Arrays.TwoPointer;
-
-import static java.lang.Math.max;
 public class ContainerWithMostWater {
     static void main() {
         int [] c = {1, 8, 6, 2, 5, 4, 8, 3, 7};
@@ -12,7 +10,7 @@ public class ContainerWithMostWater {
             int w = right - left;
             int h = Math.min(c[left], c[right]);
             int currentwater = w * h;
-            maxwater = max(currentwater, maxwater);
+            maxwater = Math.max(currentwater, maxwater);
 
             if(c[left]<c[right]){
                 left++;
