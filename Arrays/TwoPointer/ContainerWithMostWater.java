@@ -1,9 +1,6 @@
 package Arrays.TwoPointer;
 
-import Arrays.basicArray.MaxElement;
-
 import static java.lang.Math.max;
-
 public class ContainerWithMostWater {
     static void main() {
         int [] c = {1, 8, 6, 2, 5, 4, 8, 3, 7};
