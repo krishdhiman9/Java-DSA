@@ -18,9 +18,7 @@ public class ContainerWithMostWater {
             else {
                 right--;
             }
-
         }
         System.out.println(maxwater);
     }
 }
-
