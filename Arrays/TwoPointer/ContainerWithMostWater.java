@@ -5,13 +5,11 @@ public class ContainerWithMostWater {
         int left = 0;
         int right = c.length -1;
         int maxwater  = 0 ;
-
         while(left<right) {
             int w = right - left;
             int h = Math.min(c[left], c[right]);
             int currentwater = w * h;
             maxwater = Math.max(currentwater, maxwater);
-
             if(c[left]<c[right]){
                 left++;
             }
