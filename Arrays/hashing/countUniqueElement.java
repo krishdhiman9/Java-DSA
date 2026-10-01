@@ -10,6 +10,5 @@ public class countUniqueElement{
         }
         System.out.println("Unique elements: " + set);
         System.out.println("Total unique elements: " + set.size());
-
     }
 }
