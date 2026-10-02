@@ -11,6 +11,7 @@ public class RemoveElement {
                 k++;
             }
         }
+
         for(int i = 0; i<k; i++) {
             System.out.print (a[i]+ " ");
         }
