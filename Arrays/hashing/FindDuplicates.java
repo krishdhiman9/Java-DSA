@@ -33,6 +33,6 @@ public class FindDuplicates {
                 set.add(num);
             }
         }
-}
+    }
 }
 
