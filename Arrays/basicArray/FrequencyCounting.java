@@ -1,9 +1,7 @@
 package Arrays.basicArray;
-
 public class FrequencyCounting {
     static void main() {
         int [] a = {2,3,2,5,2,3};
-
         for(int i = 0; i<a.length; i++){
             boolean alreadycount = false ;
 
