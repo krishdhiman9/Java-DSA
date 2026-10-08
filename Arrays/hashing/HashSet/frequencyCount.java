@@ -1,4 +1,4 @@
-package Arrays.hashing;
+package Arrays.hashing.HashSet;
 public class frequencyCount {
     static void main() {
                 int [] a = {2,3,2,5,2,3,1,1,1,1};

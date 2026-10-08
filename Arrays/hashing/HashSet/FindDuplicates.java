@@ -17,7 +17,7 @@
 //}
 
 
-package Arrays.hashing;
+package Arrays.hashing.HashSet;
 import java.util.HashSet;
 public class FindDuplicates {
 

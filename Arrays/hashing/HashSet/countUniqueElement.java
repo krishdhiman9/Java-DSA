@@ -1,4 +1,4 @@
-package Arrays.hashing;
+package Arrays.hashing.HashSet;
 import java.util.HashSet;
 public class countUniqueElement{
     public static void main(String[] args) {
