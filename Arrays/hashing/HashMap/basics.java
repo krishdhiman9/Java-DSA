@@ -11,6 +11,5 @@ public class basics {
         System.out.println(map.get(101) +" "+  map.get(103));
         System.out.println();
 
-
     }
 }
