@@ -8,8 +8,10 @@ public class basics {
         map.put(102, "Rahul");
         map.put(103, "Aman");
         //get used for print value
-        System.out.println(map.get(101) +" "+  map.get(103));
-        System.out.println();
+        System.out.println(map.get(101) +" "+ map.get(102)+ " "+   map.get(103));
 
+        //containskey for find information in map
+        System.out.println(map.containsKey(105));
+        System.out.println(map.containsKey(101));
     }
 }
