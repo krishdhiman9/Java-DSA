@@ -10,7 +10,7 @@ public class FirstNonRepeatingElement {
             int num = arr[i];
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-            //first non repeating element
+        //first non repeating element
             for(int i=0; i<arr.length; i++){
                 int num = arr[i];
                 if(map.get(num)==1){
@@ -18,4 +18,5 @@ public class FirstNonRepeatingElement {
                     break;
                 }
             }
-        }}
+        }
+}
