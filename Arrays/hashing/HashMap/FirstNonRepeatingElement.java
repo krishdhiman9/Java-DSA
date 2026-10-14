@@ -10,6 +10,7 @@ public class FirstNonRepeatingElement {
             int num = arr[i];
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
+
         //first non repeating element
             for(int i=0; i<arr.length; i++){
                 int num = arr[i];
