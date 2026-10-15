@@ -24,6 +24,4 @@ public class MostFrequentElemnt {
          }
         System.out.println("most frequent elemnt: "+mostfreq);
         System.out.println("frequency: "+ map.get(mostfreq));
-
-
     }}
