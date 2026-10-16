@@ -8,7 +8,7 @@ public class MostFrequentElemnt {
         int max = 0;
         int mostfreq =0;
 
-        int[] arr = {2, 3, 2, 5, 3, 2, 4};
+        int[] arr = {2, 3, 2, 5, 3, 2, 4,0};
         //for frequency
         for (int i=0; i<arr.length; i++){
             int num = arr[i];
