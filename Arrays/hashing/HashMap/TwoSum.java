@@ -6,7 +6,7 @@ public class TwoSum {
         int tar = 9;
 
          for(int i=0; i<arr.length ; i++){
-             for(int j=1; j<arr.length; j++){
+             for(int j=i+1; j<arr.length; j++){
                  if (tar==arr[i]+arr[j]){
                      System.out.println(i + " " + j);
                  }
