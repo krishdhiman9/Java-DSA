@@ -1,6 +1,6 @@
 package Arrays.hashing.HashMap;
 import java.util.HashMap;
-
+//two sum program
 public class TwoSum {
     static void main() {
         int [] arr  = {4, 5, 1, 2, 1, 4};
