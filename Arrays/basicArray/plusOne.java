@@ -4,6 +4,7 @@ import java.util.Arrays;
 public class plusOne {
     static void main() {
         int[] arr = {9, 2, 9};
+        //plus one program
         boolean allNine = true;
         for (int i =arr.length-1; i>=0; i--){
             if(arr[i]==9){
