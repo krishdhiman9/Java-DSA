@@ -19,6 +19,7 @@ public class basics {
 
         //containskey for find information in map
         System.out.println(map.containsKey(105));
+        System.out.println(map.containsKey(102));
         System.out.println(map.containsKey(101));
     }
 }
