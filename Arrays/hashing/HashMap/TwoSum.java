@@ -12,6 +12,7 @@ public class TwoSum {
                 System.out.println(map.get(req) + " " + i);
                 break;
             }
+
             //add the index and element
             map.put(arr[i],i);
         }
