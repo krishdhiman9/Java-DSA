@@ -17,6 +17,7 @@ public class basics {
         set.put(103, 3);
         System.out.println(set.get(101));
 
+
         //containskey for find information in map
         System.out.println(map.containsKey(105));
         System.out.println(map.containsKey(102));
