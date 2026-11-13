@@ -15,5 +15,6 @@ public class TwoSum {
             //add the index and element
             map.put(arr[i],i);
         }
+
     }
 }
