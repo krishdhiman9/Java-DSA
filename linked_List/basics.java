@@ -18,6 +18,7 @@ public class basics {
 
         n1.next = n2;
         n2.next = n3;
+
         System.out.println(n1.next.data);
     }
 }
