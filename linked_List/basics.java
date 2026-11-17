@@ -8,11 +8,10 @@ class Node {
         this.next = null;
     }
 }
-
 public class basics {
     public static void main(String[] args) {
 
-        Node n1 = new Node(10);
+        Node n1 = new Node(19);
         Node n2 = new Node(50);
         Node n3 = new Node(30);
 
