@@ -28,6 +28,7 @@ public class basics {
 
         //object
         linkedList n = new linkedList();
+
         n.head=n1;
         System.out.println(n.head.data);
     }
