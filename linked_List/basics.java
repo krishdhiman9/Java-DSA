@@ -9,6 +9,11 @@ class Node {
         this.next = null;
     }
 }
+
+//create class
+class linkedList{
+    Node head;
+}
 public class basics {
     public static void main(String[] args) {
 
@@ -20,5 +25,10 @@ public class basics {
         n2.next = n3;
         //Output
         System.out.println(n1.next.data);
+
+        //object
+        linkedList n = new linkedList();
+        n.head=n1;
+        System.out.println(n.head.data);
     }
 }
