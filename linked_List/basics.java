@@ -32,6 +32,7 @@ public class basics {
 //        n.head=n1;
 //        System.out.println(n.head.data);
 
+        //add new element in linked list
         Node newnode = new Node(10);
         newnode.next=n.head;
         n.head=newnode;
