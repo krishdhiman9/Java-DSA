@@ -29,7 +29,13 @@ public class basics {
         //object
         linkedList n = new linkedList();
 
-        n.head=n1;
+//        n.head=n1;
+//        System.out.println(n.head.data);
+
+        Node newnode = new Node(10);
+        newnode.next=n.head;
+        n.head=newnode;
         System.out.println(n.head.data);
+
     }
 }
