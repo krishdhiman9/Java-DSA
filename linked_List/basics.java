@@ -38,5 +38,14 @@ public class basics {
         n.head=newnode;
         System.out.println(n.head.data);
 
+        Node temp = n.head;
+
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+
+        temp.next = new Node(40);
+        System.out.println(temp.next.data);
+
     }
 }
