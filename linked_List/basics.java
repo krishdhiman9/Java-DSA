@@ -43,7 +43,6 @@ public class basics {
         while (temp.next != null) {
             temp = temp.next;
         }
-
         temp.next = new Node(40);
         System.out.println(temp.next.data);
 
