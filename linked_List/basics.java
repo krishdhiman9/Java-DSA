@@ -39,7 +39,6 @@ public class basics {
         System.out.println(n.head.data);
 
         Node temp = n.head;
-
         while (temp.next != null) {
             temp = temp.next;
         }
