@@ -29,8 +29,8 @@ public class basics {
         //object
         linkedList n = new linkedList();
 
-//        n.head=n1;
-//        System.out.println(n.head.data);
+        //n.head=n1;
+        //System.out.println(n.head.data);
 
         //add new element in linked list
         Node newnode = new Node(10);
