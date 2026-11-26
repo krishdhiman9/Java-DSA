@@ -37,5 +37,17 @@ public static void main(String[] args) {
 
     //output
     System.out.println(h1.head.data);
+
+    //add node at the end
+    node temp = h1.head;
+    while(temp.next != null){
+        temp =  temp.next;
+    }
+
+    temp.next = new node(40);
+
+    System.out.println(temp.next.data);
+
+
 }
 }
