@@ -1,49 +1,37 @@
 package linked_List;
-class Node {
+class node{
     int data;
-    Node next;
+    node next;
 
-    //constructor
-    Node(int data) {
-        this.data = data;
-        this.next = null;
+    node(int data){
+        this.data= data;
+        this.next=null;
     }
 }
 
-//create class
-class linkedList{
-    Node head;
+class Head{
+    node head;
 }
-public class basics {
-    public static void main(String[] args) {
 
-        Node n1 = new Node(19);
-        Node n2 = new Node(50);
-        Node n3 = new Node(30);
+public class basics{
+public static void main(String[] args) {
 
-        n1.next = n2;
-        n2.next = n3;
-        //Output
-        System.out.println(n1.next.data);
+    node n1=new node(10);
+    node n2 = new node(20);
+    node n3 = new node (30);
 
-        //object
-        linkedList n = new linkedList();
+    n1.next=n2;
+    n2.next=n3;
 
-        //n.head=n1;
-        //System.out.println(n.head.data);
 
-        //add new element in linked list
-        Node newnode = new Node(10);
-        newnode.next=n.head;
-        n.head=newnode;
-        System.out.println(n.head.data);
+    Head h1= new Head();
+    h1.head=n1;
 
-        Node temp = n.head;
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-        temp.next = new Node(40);
-        System.out.println(temp.next.data);
+    System.out.println(h1.head.data);
 
-    }
-}
+    node newnode = new node(3);
+    newnode.next = h1.head;
+    h1.head=newnode;
+
+    System.out.println(h1.head.data);
+}}
