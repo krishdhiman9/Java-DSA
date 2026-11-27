@@ -49,5 +49,13 @@ public static void main(String[] args) {
     System.out.println(temp.next.data);
 
 
+
+    node temmp = h1.head;
+    while(temmp != null){
+        System.out.println(temmp.data);
+        temmp = temmp.next;
+    }
+
+
 }
 }
