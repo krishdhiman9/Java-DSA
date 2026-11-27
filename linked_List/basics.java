@@ -49,7 +49,7 @@ public static void main(String[] args) {
     System.out.println(temp.next.data);
 
 
-
+    //linekd list traversal
     node temmp = h1.head;
     while(temmp != null){
         System.out.println(temmp.data);
